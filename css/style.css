@@ -1,4 +1,11 @@
- h1{
+ h1,h3 {
   font-family: 'Yeon Sung', cursive;
   color: #b30505;
+}
+
+button{
+  font-family: 'Yeon Sung', cursive;
+}
+input placeholder{
+  font-family: 'Yeon Sung', cursive;
 }

@@ -6,11 +6,42 @@
     <title>Tree Diagram(Digital Cru)</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-
-    <h1 class="font-weight-bold text-center p-5" >Digital Cru</h1>
-
+    <div class="container" >
+      <h1 class="font-weight-bold text-center p-5" >Digital Cru</h1>
+          <div class="text-center">
+            <p style="font-size:25px;" >The Number One <b>Digital Cru</b> Companey</p>
+          </div>
+          <!-- Button trigger modal -->
+          <i class="fa fa-plus-circle float-right " data-toggle="modal" data-target="#exampleModalCenter" style="font-size:56px; color: #b30505;"></i>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <h3 class="font-weight-bold text-center p-2" >Add new Employee</h3>
+                  <form class="form p-4">
+                      <div class="form-group">
+                        <input class="form-control" type="text" id="name" placeholder="Employee Name" >
+                      </div>
+                      <div class="form-group">
+                        <input class="form-control" type="text" id="parent" placeholder="Reports to..." >
+                      </div>
+                      <div class="form-group">
+                        <input class="form-control" type="text" id="department" placeholder="Department" >
+                      </div>
+                      <div class="form-group pt-2">
+                        <button type="button" class="btn btn-info" >Add Employee</button>
+                        <h1  class="btn btn-info float-right" data-dismiss="modal">Close</h1>
+                      </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
@@ -39,6 +70,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.min.js"></script>
     <script src="index.js" ></script>
     <script src="graph.js" ></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   </body>
 </html>
