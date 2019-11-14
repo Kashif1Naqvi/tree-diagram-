@@ -24,7 +24,7 @@
                   <h3 class="font-weight-bold text-center p-2" >Add new Employee</h3>
                   <form class="form p-4">
                       <div class="form-group">
-                        <input class="form-control" type="text" id="name" placeholder="Employee Name" >
+                        <input class="form-control " type="text" id="name" placeholder="Employee Name" >
                       </div>
                       <div class="form-group">
                         <input class="form-control" type="text" id="parent" placeholder="Reports to..." >
@@ -32,8 +32,10 @@
                       <div class="form-group">
                         <input class="form-control" type="text" id="department" placeholder="Department" >
                       </div>
+
                       <div class="form-group pt-2">
-                        <button type="button" class="btn btn-info" >Add Employee</button>
+                        <p class="alert-danger text-center"></p>
+                        <button type="submit" class="btn btn-info">Add Employee</button>
                         <h1  class="btn btn-info float-right" data-dismiss="modal">Close</h1>
                       </div>
                   </form>
@@ -41,6 +43,9 @@
               </div>
             </div>
           </div>
+        <div class="canvas">
+
+        </div>
     </div>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
@@ -71,8 +76,7 @@
     <script src="index.js" ></script>
     <script src="graph.js" ></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
